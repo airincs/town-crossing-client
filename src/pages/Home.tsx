@@ -1,8 +1,6 @@
 import React, { FC, useState, useEffect } from "react";
-import { Flex, Container, Box, Text, Button, Spinner } from "@chakra-ui/react";
-import { useSelector } from "react-redux";
+import { Flex, Container, Box, Text, Button } from "@chakra-ui/react";
 import { Link } from "react-router-dom";
-import Note from "../components/Bulletin/Note/Note";
 import ReactThreeFiber from "../components/Home/ReactThreeFiber";
 
 const Home: FC = () => {

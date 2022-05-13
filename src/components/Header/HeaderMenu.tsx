@@ -81,12 +81,6 @@ const HeaderMenu = () => {
         </MenuGroup>
         <MenuDivider />
         <MenuGroup>
-          <a href="https://github.com/airincs">
-            <MenuItem>GitHub</MenuItem>
-          </a>
-          <a href="https://github.com/airincs">
-            <MenuItem>LinkedIn</MenuItem>
-          </a>
           <MenuItem
             onClick={() => {
               navigator.clipboard.writeText("airincompsci@gmail.com");

@@ -18,7 +18,6 @@ import path from "path";
 import nycImg from "../assets/images/nyc.jpg";
 import londonImg from "../assets/images/london.jpg";
 import tokyoImg from "../assets/images/tokyo.jpg";
-import { url } from "inspector";
 
 const Weather: FC = () => {
   document.title = "Weather";

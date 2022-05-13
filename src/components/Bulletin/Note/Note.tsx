@@ -1,13 +1,9 @@
-import React, { FC, useRef } from "react";
 import {
-  Box,
   Text,
-  Button,
   createStandaloneToast,
   Avatar,
   Flex,
   chakra,
-  BoxProps,
   useMediaQuery,
 } from "@chakra-ui/react";
 import { deleteNote, loveNote } from "../../../actions/notes";

@@ -1,5 +1,5 @@
 import React, { FC, useState, useEffect } from "react";
-import { Flex, Button, Avatar, Text, useMediaQuery } from "@chakra-ui/react";
+import { Flex, Avatar, Text, useMediaQuery } from "@chakra-ui/react";
 import { Link } from "react-router-dom";
 import { useDispatch } from "react-redux";
 import { useNavigate, useLocation } from "react-router-dom";

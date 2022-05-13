@@ -3,7 +3,6 @@ import { Container, Flex, Box, Text } from "@chakra-ui/react";
 import { useDispatch } from "react-redux";
 import { getNotes } from "../actions/notes";
 import Bulletin from "../components/Bulletin/Bulletin";
-import Header from "../components/Header/Header";
 
 const BulletinPage: FC = () => {
   document.title = "Bulletin";
