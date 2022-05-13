@@ -6,6 +6,7 @@ import Bulletin from "../components/Bulletin/Bulletin";
 import Header from "../components/Header/Header";
 
 const BulletinPage: FC = () => {
+  document.title = "Bulletin";
   const dispatch = useDispatch<any>();
 
   useEffect(() => {

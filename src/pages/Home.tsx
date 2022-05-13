@@ -6,6 +6,7 @@ import Note from "../components/Bulletin/Note/Note";
 import ReactThreeFiber from "../components/Home/ReactThreeFiber";
 
 const Home: FC = () => {
+  document.title = "Home";
   const [user, setUser] = useState<any>();
   useEffect(() => {
     const value = localStorage.getItem("profile");

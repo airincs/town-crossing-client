@@ -21,6 +21,7 @@ import tokyoImg from "../assets/images/tokyo.jpg";
 import { url } from "inspector";
 
 const Weather: FC = () => {
+  document.title = "Weather";
   const [lat, setLat] = useState<number>(35.6897);
   const [lon, setLon] = useState<number>(139.6922);
   const [wallpaper, setWallpaper] = useState<any>(tokyoImg);

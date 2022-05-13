@@ -5,6 +5,7 @@ import { getNotes } from "../actions/notes";
 import UserBulletin from "../components/Bulletin/UserBulletin";
 
 const UserNotesPage: FC = () => {
+  document.title = "User Notes";
   const dispatch = useDispatch<any>();
   const user = JSON.parse(localStorage.getItem("profile")!);
   const username = `${user.result.username}`;

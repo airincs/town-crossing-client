@@ -20,6 +20,7 @@ import { signin, signup } from "../actions/auth";
 import * as Yup from "yup";
 
 const Login: FC = () => {
+  document.title = "Login";
   const [signUpStatus, setSignUpStatus] = useState(false);
   const [signInData, setSignInData] = useState<any>(null);
   const [signUpData, setSignUpData] = useState<any>(null);
