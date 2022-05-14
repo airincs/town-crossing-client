@@ -1,4 +1,4 @@
-# Introduction
+# Introduction - Town Crossing!
 
 ![Home](./src/assets/images/Home.PNG)
 
@@ -15,6 +15,8 @@ Sign up, post a Note to the Bulletin, and check the weather... Stay a while!
 ![Redux](https://img.shields.io/badge/redux-%23593d88.svg?style=for-the-badge&logo=redux&logoColor=white)
 ![JWT](https://img.shields.io/badge/JWT-black?style=for-the-badge&logo=JSON%20web%20tokens)
 ![Threejs](https://img.shields.io/badge/threejs-black?style=for-the-badge&logo=three.js&logoColor=white)
+
+Note: This repository was created to be hosted on Vercel. Original development repository for both the frontend and backend can be found here: (https://github.com/airincs/town-crossing-dev)
 
 ## Index
 
@@ -63,7 +65,7 @@ $ npm start
 
 ## Reflection
 
-Reflection...
+Developing Town Crossing taught me a lot! It was a great opportunity for me to refine my frontend skills and to gain backend experience. There were a lot of small details and problems that I had to push through, which ultimately helped me grow substantially as a developer. While I'm happy with the process and the results, in retrospect I would have also developed the project with a testing tool such as Jest or React-Testing-Library.
 
 ## Project Screenshots
 
