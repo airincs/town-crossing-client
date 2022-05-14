@@ -10,7 +10,6 @@ export const signup = (signUpData: any, navigate: any) => async (dispatch: any) 
     window.location.reload();
   } catch (error) {
     console.log(error)
-    alert("Nope")
   }
 }
 
